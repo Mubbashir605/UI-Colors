@@ -1,0 +1,111 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    overflow: scroll;
+}
+.main1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main1 div {
+    width: 20%;
+    height: 152px;
+    display: flex;
+    flex-shrink: 1;
+    cursor: pointer;
+    
+}
+.main2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main2 div {
+    width: 20%;
+    height: 152px;
+    background-color: green;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-shrink: 1;
+    cursor: pointer;
+}
+.main3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main3 div {
+    width: 20%;
+    height: 152px;
+    background-color: green;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-shrink: 1;
+    cursor: pointer;
+}
+.main4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main4 div {
+    width: 20%;
+    height: 140px;
+    background-color: green;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-shrink: 1;
+    cursor: pointer;  
+}
+div>p{
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    right: 10px;
+    top: 8px;
+}
+@media (max-width:1024px) {
+    .main1 div{
+        height: 150px;
+        width: 180px;
+    }
+    .main2 div{
+        height: 150px;
+        width: 180px;
+    }
+    .main3 div{
+        height: 150px;
+        width: 180px;
+    }
+    .main4 div{
+        height: 150px;
+        width: 180px;
+    }
+}
+@media (max-width:768px){
+    a{
+        display: none;
+    }
+    .main1 div{
+        height: 150px;
+        width: 200px;
+    }
+    .main2 div{
+        height: 150px;
+        width: 200px;
+    }
+    .main3 div{
+        height: 150px;
+        width: 200px;
+    }
+    .main4 div{
+        height: 150px;
+        width: 200px;
+    }
+}
